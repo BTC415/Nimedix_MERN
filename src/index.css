@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'primary';
+  src: url('./assets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'secondary';
+  src: url('./assets/fonts/Recoleta-Bold.ttf');
+}
+
+#nimedix-app {
+  font-family: primary;
+}
+
+.title {
+  font-family: secondary;
+  font-weight: 600;
+}
+
+#banner-section-container {
+  background: #06430d;
+  background-image: url('./assets/images/banner/banner_bg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+#signup-banner {
+  background-image: url('./assets/images/banner/banner_bg_angles.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+/* @media only screen and (max-width: 640px) {
+  #banner-section-container {
+    background: #06430d;
+    background-image: url('./assets/images/banner/banner-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    background-size: contain;
+  }
+} */
